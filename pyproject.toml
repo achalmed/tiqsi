@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tiqsi"
+version = "0.1.0"
+description = "Tiqsi: el contrato con que los proyectos se conectan a un anfitrión como Qillqa (manifiestos, capacidades, eventos y referencias)."
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+fastapi = ["fastapi>=0.110"]
+sql = ["sqlalchemy>=2"]
+pruebas = ["pytest>=8", "fastapi>=0.110", "httpx>=0.27", "sqlalchemy>=2", "aiosqlite>=0.20"]
+
+[tool.setuptools]
+packages = ["tiqsi"]
