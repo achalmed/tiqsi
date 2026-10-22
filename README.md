@@ -6,6 +6,8 @@ referencias) y el anfitrión los monta en orden, sin que un módulo importe el c
 bandeja de salida durable, las referencias entre módulos, un **anfitrión mínimo** (con inicio de sesión) para que cada
 módulo funcione solo, su contraparte web (`web/`, `@qillqa/tiqsi`) y el exportador de demos públicas que usan todos.
 
+**Recorrido interactivo:** <https://achalmed.github.io/tiqsi/> (el código del sitio está en [`sitio/`](sitio/)).
+
 Es la base de [Qillqa](https://github.com/achalmed/qillqa) y sus módulos (Qillqasqa, la Mediateca, Tareas y Agenda, el
 chat, la Mesa de Partes…), cada uno en su repositorio.
 
